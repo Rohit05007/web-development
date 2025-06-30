@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: rgb(144, 42, 165);
+            color: brown;
+        }
+
+        /* Class Selector */
+        .red {
+            background-color: rgb(255, 127, 223);
+            color: aqua;
+        }
+        /* ID Selector */
+        #green {
+            background-color: darkmagenta;
+        }
+
+        /* Child Selector */
+        div>p {
+            background-color: black;
+            color: brown;
+        }
+        /* Descendent Selector */
+        div p {
+            background-color: black;
+            color: brown;
+        }
+
+        /* universal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* Pseudo Selector */
+    a:visited{
+        color: rgb(0, 0, 0);
+    }
+    a:link{
+        color: coral;
+    }
+    a:active{
+        background-color: black;
+    }
+    a:hover{
+        background-color: blue;
+    }
+    p:first-child{
+        background-color: gold;
+    }
+    </style>
+</head>
+
+<body>
+    <main class="one">
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
+    <div>
+        I am Rohit
+    </div>
+    <div class="red">
+        This is Ayush
+        <p>BCA E1 </p>
+    </div>
+    <div id="Green">
+        This is Sumit
+    </div>
+    <a href="https://www.google.com">Go to google </a>
+    <a href="https://www.facebook.com">Go to Facebook </a>
+</body>
+
+</html>

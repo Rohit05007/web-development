@@ -1,0 +1,78 @@
+<!-- Jai Shree Ganesh -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALLCourse</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        table,
+        td {
+            border: 2px solid black;
+        }
+
+        td {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center"><b><u>Registration</u></b> </h1>
+    <form>
+        <table border="collapse" cellpadding="02" cellspacing="10" align="center">
+            <tr>
+                <td><label for="username">Username :</label></td>
+                <td><input type="text" id="username" placeholder="Enter your name" required></td>
+            </tr>
+
+            <tr>
+                <td><label>Gender :</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="password">Password :</label></td>
+                <td><input type="password" id="password" placeholder="Password"></td>
+            </tr>
+
+            <tr>
+                <td><label for="phone">Phone No :</label></td>
+                <td><input type="tel" id="phone" placeholder="Phone number" maxlength="10"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Course">Choose Course :</label></td>
+                <td>
+                    <select name="Course" id="Course">
+                        <option value="C++">C++</option>
+                        <option value="C Programming">C Programming</option>
+                        <option value="Java">Java</option>
+                        <option value="Python">Python</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
